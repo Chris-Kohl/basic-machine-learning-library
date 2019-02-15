@@ -30,3 +30,10 @@ def basichypothesis(x, t):
     theta = t.T
     hypothesis = theta * x
     return hypothesis
+
+
+def heavisidefunction(x):
+    if x >= 0:
+        return 1
+    else:
+        return -1
