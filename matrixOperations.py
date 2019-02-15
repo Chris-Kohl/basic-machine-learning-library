@@ -15,3 +15,7 @@ def addNewFeature(x, y):
     else:
         z = np.concatenate((x, ones), axis=1)
     return z
+
+
+def dotproduct(x, w):
+    return sum(x*w)

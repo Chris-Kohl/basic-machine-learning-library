@@ -8,7 +8,7 @@ def plotgraph(x, y):
     plt.show()
 
 
-def inittheta(x):
+def initialiseweights(x):
     theta = np.ones((1, x.shape[0]))
     return theta
 
