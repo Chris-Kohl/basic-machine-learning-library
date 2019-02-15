@@ -13,7 +13,7 @@ def initialiseweights(x):
     return theta
 
 
-def basichypothesis(x, t):
+def calcA(x, t):
     theta = t.T
     hypothesis = theta * x
     return hypothesis
