@@ -19,3 +19,9 @@ def addNewFeature(x, y):
 
 def dotproduct(x, w):
     return sum(x*w)
+
+
+def extractResults(x):
+    data = x[:, :-1]
+    res = x[:, -1]
+    return data, res
